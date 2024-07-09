@@ -8,7 +8,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
         docker tag react-image tamilkgs/dev
         docker push tamilkgs/dev
 
-if [[ $GIT_BRANCH == "origin/master" ]]; then
+if [[ $GIT_BRANCH == "origin/prod" ]]; then
         sh'chmod +x build.sh'
         sh'./build.sh'
 
