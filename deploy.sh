@@ -1,5 +1,5 @@
 #!/bin/bash
-docker login tamilkgs -p dckr_pat_5I-haTWTm-Ri6wa8_m7pOAYsy3k
+docker login -u tamilkgs -p dckr_pat_5I-haTWTm-Ri6wa8_m7pOAYsy3k
 if [[ $GIT_BRANCH == "origin/dev" ]]; then
        sh 'chmod +x build.sh'
        sh './build.sh'
