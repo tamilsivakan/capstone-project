@@ -5,8 +5,8 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
        sh'chmod +x build.sh'
        sh'./build.sh'
 
-        docker tag react-image tamilkgs/dev
-        docker push tamilkgs/dev
+        docker tag react-image1 tamilkgs/dev
+        docker push tamilkgs/dev react-image1 
 
 elif [[ $GIT_BRANCH == "origin/prod" ]]; then
         sh'chmod +x build.sh'
