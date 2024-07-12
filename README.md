@@ -3,7 +3,7 @@
 
 1.	Git hub repo URL:  https://github.com/tamilsivakan/capstone-project
 2.	Deployed site URL:   http://3.140.242.97 
-4.	Name of the Docker image: React -image
+4.	Name of the Docker image: **React -image**
    
                     Screenshots are 
 1.	**Jenkins (login page, configuration settings, execute step commands)**
